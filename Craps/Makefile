@@ -1,6 +1,5 @@
 # A simple Makefile
-# Jafar Moukalled	G01110547
-# CS262, Lab Section 223
+# Jafar Moukalled
 # Craps
 
 CC = gcc
