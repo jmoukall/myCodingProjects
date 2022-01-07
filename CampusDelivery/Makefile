@@ -1,12 +1,11 @@
 # A simple Makefile
-# Jafar Moukalled       G01110547
-# CS262, Lab Section 223
+# Jafar Moukalled
 # GMU Delivery
 
 CC = gcc -g
 
 CFLAGS=-pedantic-errors -Og
-TARGET=GMUDelivery
+TARGET=CampusDelivery
 all: $(TARGET)
 	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).c
 
