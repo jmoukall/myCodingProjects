@@ -7,7 +7,7 @@
 void printMenu()
 {
     printf("\n*****************************************************");
-    printf("\n\n* Welcome to GMU's Starship Robots Delivery");
+    printf("\n\n* Welcome to the Campus Starship Robots Delivery");
     printf("\n* Central Dispatch System");
     printf("\n\n*****************************************************");
 }
