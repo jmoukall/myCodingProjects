@@ -1,6 +1,6 @@
 /*	Jafar Moukalled	G01110547
  *	CS 262, Lab Section 223
- *	Project 1
+ *	Craps
  */
 
 #include<stdio.h>
