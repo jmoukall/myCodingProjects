@@ -21,18 +21,18 @@ int main()
 	/*ask user if they want to make a delivery order*/
 	while(1)
 	{
-        printf("\nNew delivery order? (y/n) ");
-        fgets(c, 5, stdin);
-        switch(c[0])
-        {
-       		case 'y':
-            	/*some code here for new robot order*/
-            	currentOrder = dmalloc(sizeof(robotOrder));
+        	printf("\nNew delivery order? (y/n) ");
+        	fgets(c, 5, stdin);
+        	switch(c[0])
+       	 	{
+       			case 'y':
+            			/*some code here for new robot order*/
+            			currentOrder = dmalloc(sizeof(robotOrder));
 		
 				/*ask for robot number*/
-           		printf("\nRobot number: ");
-            	fgets(buffer, 50, stdin);
-            	currentOrder->robotNum = atoi(buffer);
+           			printf("\nRobot number: ");
+            			fgets(buffer, 50, stdin);
+            			currentOrder->robotNum = atoi(buffer);
 
 				/*ask for address*/
 				printf("\nAddress to deliver to: ");
@@ -50,12 +50,12 @@ int main()
 				/*algorithm for linked list of robotOrders*/
 				currentOrder->next = deliveryList;
 				deliveryList = currentOrder;
-                break;
+                		break;
 			case 'n':
 				/*take out newline char from buffer*/
 				buffer[strcspn(buffer, "\n")] = 0;
 
-                // code here to end the program and print all orders
+         			// code here to end the program and print all orders
 				printf("\nList of Deliveries:");
 				robotOrder *temp = deliveryList;
 				while(temp != NULL)
@@ -72,13 +72,13 @@ int main()
 				}
 				goto EXIT_PROGRAM;
 			default:
-                printf("\nInvalid Input. Please try again.");
-        }
-    }
+                		printf("\nInvalid Input. Please try again.");
+        	} // end switch
+    	}// end while
 
 	EXIT_PROGRAM:
 		free(deliveryList);
 		free(currentOrder);
 		printf("\n");
-    return 0;
+   	return 0;
 }
