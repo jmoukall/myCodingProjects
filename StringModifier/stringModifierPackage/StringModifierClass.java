@@ -56,7 +56,33 @@ public class StringModifierClass
 		// count the number of 'a' and 'e' in the file
 		Modifier.charCntr(filename);
 		
+		// replace the second word of the first line with a new word
+		Modifier.replaceWord("file.txt", "favorite");
 		
+		// display file results
+		String s2 = Modifier.toString(filename);
+		System.out.println("\nWhat the file looks like so far:");
+		System.out.println(s2);
+		
+		// add 10 more words using append
+		Modifier.appendWords(filename);
+		
+		// find number of lines
+		Modifier.findNumLines(filename);
+		
+		// convert file size in terms of bytes
+		byte size = (byte)fileSize;
+		System.out.println("The file is " + size + " bytes.");
+		
+		// delete the period of the last line
+		Modifier.deleteChar(filename, '.');
+		
+		// move the first line of text to the end of the document
+		Modifier.moveLine(filename);
+		
+		String s3 = Modifier.toString(filename);
+		System.out.println("Final form of the file:");
+		System.out.println("\n" + s3);
 		s.close();
 	}
 
