@@ -1,2 +1,11 @@
-# StringModifier
-This project is to create a file and modify the contents within the file.
+# jmoukall's Project Repository
+Hello! This is where I will be storing any past or present projects that I will be working on. Thanks for stopping by.
+## My Finished Projects
+### [Craps](https://github.com/jmoukall/myCodingProjects/tree/main/Craps)
+This project simulates gameplay of the betting game known as Craps. 
+
+### [CampusDelivery](https://github.com/jmoukall/myCodingProjects/tree/main/CampusDelivery)
+This project mocks a delivery service and simulates the experience of ordering food or beverages.
+
+### [StringModifier](https://github.com/jmoukall/myCodingProjects/tree/main/StringModifier)
+This project was made to edit any desired block of text in a sequential manner to present an understanding of of string manipulation.
