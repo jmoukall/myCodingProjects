@@ -20,5 +20,5 @@ This project I wrote is a task controller for a custom OS created by my professo
 ### [Square Sorter](https://github.com/jmoukall/myCodingProjects/tree/main/Square%20Sorter)
 This project is capable of creating squares on a GUI and sorting them according to specific option of either location or stack position.
 
-### [Color Graph Implementation]()
+### [Color Graph Implementation](https://github.com/jmoukall/myCodingProjects/tree/main/Color%20Graph%20Implementation)
 This project implements a graph data structure using heaps, and colors it using Chaitin's Algorithm.
