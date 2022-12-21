@@ -8,10 +8,10 @@ import java.util.Comparator;
  *  <p>Adapterion of Nifty Assignment (http://nifty.stanford.edu/) by
  *  Mike Clancy in 2001. Original code by Mike Clancy. Updated Fall
  *  2022 by K. Raven Russell.</p>
+ *
+ *  Updated Fall 2022 by Jafar Moukalled
  */
 public class WindowStack {
-	//You'll need some instance variables probably...
-	//< YOUR_CODE_HERE >
 
 	/**
 	 * The head of the stack.
