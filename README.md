@@ -16,3 +16,6 @@ This project is responsible for CPU scheduling in a custom OS made by my profess
 
 ### [Task Controller](https://github.com/jmoukall/myCodingProjects/tree/main/Task%20Controller)
 This project I wrote is a task controller for a custom OS created by my professor, Kevin Andrea.
+
+### [Square Sorter](https://github.com/jmoukall/myCodingProjects/tree/main/Square%20Sorter)
+This project is capable of creating squares on a GUI and sorting them according to specific option of either location or stack position.
