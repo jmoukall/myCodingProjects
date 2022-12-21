@@ -2,6 +2,7 @@
  * Holds bare nodes for use in other classes.
  * 
  * @param <T> Type of object
+ * @author Katherine (Raven) Russell
  */
 class Node<T> {
 	/**
