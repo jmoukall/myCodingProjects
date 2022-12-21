@@ -8,6 +8,8 @@ import java.util.Comparator;
  *  <p>Adapterion of Nifty Assignment (http://nifty.stanford.edu/) by
  *  Mike Clancy in 2001. Original code by Mike Clancy. Updated Fall
  *  2022 by K. Raven Russell.</p>
+ *  
+ *  Updated Fall 2022 by Jafar Moukalled
  */
 public class SquareList {
 
@@ -177,9 +179,6 @@ public class SquareList {
 	 *  @return the iterator requested
 	 */
 	public Iterator<Square> elements() {
-		//Note that this method uses your linked list!
-		//so if the iterator doesn't work, that's on you...
-		
 		return new Iterator<Square>() {
 			/**
 			 *  The current node pointed to by the
