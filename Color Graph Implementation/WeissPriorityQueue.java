@@ -6,8 +6,9 @@ import java.util.HashMap;
 
 /**
  * PriorityQueue class implemented via the binary heap.
- * From your textbook (Weiss)
+ * From the Weiss textbook. Updated to support a HashMap.
  * @param <AnyType> custom AnyTpe object
+ * @author Jafar Moukalled
  */
 public class WeissPriorityQueue<AnyType> extends WeissAbstractCollection<AnyType>
 {
