@@ -1,5 +1,3 @@
-//TODO: Nothing, all done.
-
 import java.awt.Color;
 
 /**
