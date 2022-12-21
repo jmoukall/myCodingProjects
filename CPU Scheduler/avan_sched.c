@@ -1,5 +1,4 @@
 /*
- * - Copyright of Starter Code: Prof. Kevin Andrea, George Mason University.  All Rights Reserved
  * - Copyright of Student Code: Jafar Moukalled
  * - Date: Aug 2022
 */
