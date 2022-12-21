@@ -12,7 +12,8 @@ import java.util.LinkedList;
 
 /**
  *  Simulation of our coloring algorithm.
- *  
+ *  Author: Jafar Moukalled
+ *	    Katherine (Raven) Russell
  */
 class ThreeTenColor implements ThreeTenAlg {
 	/**
