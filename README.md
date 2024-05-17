@@ -26,5 +26,5 @@ This project implements a graph data structure using heaps, and colors it using 
 ### [Image Clustering - KMeans](https://github.com/jmoukall/myCodingProjects/tree/main/Image%20Clustering%20-%20KMeans)
 This project implements the KMeans algorithm to predict specific classifications on images.
 
-### [KNN - Review Predictions] (https://github.com/jmoukall/myCodingProjects/tree/main/KNN%20Review%20Predictions)
-This project implements the KNN to predict a rating based on a user review.
+### [KNN - Review Predictions](https://github.com/jmoukall/myCodingProjects/tree/main/KNN%20Review%20Predictions)
+This project implements the K-Nearest Neighbor algorithm to predict a rating based on a user review.
