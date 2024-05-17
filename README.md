@@ -22,3 +22,7 @@ This project is capable of creating squares on a GUI and sorting them according 
 
 ### [Color Graph Implementation](https://github.com/jmoukall/myCodingProjects/tree/main/ColorGraphImplementation)
 This project implements a graph data structure using heaps, and colors it using Chaitin's Algorithm.
+
+
+### [Image Clustering - KMeans](https://github.com/jmoukall/myCodingProjects/tree/main/Image%20Clustering%20-%20KMeans)
+This projects implements the KMeans algorithm to predict specific classifications on images.
